@@ -9,13 +9,14 @@
     .toggle-switch {
         position: relative;
         display: inline-block;
-        width: 68px;
+        width: 60px;
         height: 30px;
     }
 
-    .toggle-switch input {
-        width: 100px;
-        height: 100px;
+    .toggle-switch #toggle {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
     }
 
     .slider {
@@ -41,11 +42,11 @@
         transition: .4s;
     }
 
-    input:checked + .slider {
+    #toggle:checked + .slider {
         background-color: #F40AA1;
     }
 
-    input:checked + .slider:before {
+    #toggle:checked + .slider:before {
         transform: translateX(30px);
     }
     </style>
@@ -54,13 +55,6 @@
 
     <div class="parent flex-content">
         
-        <div class="toggle-switch-container">
-            <div class="toggle-switch">
-                <input type="checkbox" id="toggle">
-                <span class="slider" for="toggle"></span>
-                <label for="toggle">cdscs</label>
-            </div>
-        </div>
 
     </div>
 </body>

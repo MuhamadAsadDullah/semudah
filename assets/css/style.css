@@ -40,7 +40,72 @@
 }
 
 /* ----- TOGGLE SWITCH ----- */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 24px;
+}
 
+.toggle-switch #toggle {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    right: 0; top: 0; left: 0; bottom: 0;
+    background-color: var(--color4);
+    border-radius: 4px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 2px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#toggle:checked + .slider {
+    background-color: var(--color1);
+}
+
+#toggle:checked + .slider:before {
+    transform: translateX(30px);
+}
+
+.sun {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#toggle {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+#toggle:checked ~ .sun {
+    left: 36px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
 
 /* ------------------------------------------ HEADER ------------------------------------------ */
 
