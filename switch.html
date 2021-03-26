@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 68px;
+        height: 30px;
+    }
+
+    .toggle-switch input {
+        width: 100px;
+        height: 100px;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        right: 0; top: 0; left: 0; bottom: 0;
+        background-color: #007EF0;
+        border-radius: 4px;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 22px;
+        width: 22px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        border-radius: 4px;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked + .slider {
+        background-color: #F40AA1;
+    }
+
+    input:checked + .slider:before {
+        transform: translateX(30px);
+    }
+    </style>
+</head>
+<body>
+
+    <div class="parent flex-content">
+        
+        <div class="toggle-switch-container">
+            <div class="toggle-switch">
+                <input type="checkbox" id="toggle">
+                <span class="slider" for="toggle"></span>
+                <label for="toggle">cdscs</label>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
