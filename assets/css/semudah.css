@@ -1,0 +1,51 @@
+/* 
+
+KETENTUAN PENAMAAN KELAS 
+- Konsultasi dengan yang lainnya jika ingin membuat kelas baru
+- Nama kelas awali dengan smd-nama-kelas , misalnya smd-btn-primary / smd-heading-primary 
+- Usahakan tidak menggunakan 1 2 3 (smd-btn-1), tetapi (smd-btn-primary / smd-btn-secondary)
+
+*/
+
+/* ------------------------------------------- PALLET ------------------------------------------- */
+
+:root {
+    --color-primary: ;
+    --color-secondary: ;
+    --color-alert: ;
+    --color-success: ;
+    --color-neutral: ;
+    --color-mid-neutral: ;
+    --color-light: ;
+
+    --font-primary: ;
+    --font-secondary: ;
+
+    --size-head: ;
+    --size-subhead: ;
+    --size-desc: ;
+}
+
+/* ------------------------------------------- ALL ------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------- BUTTON ------------------------------------------- */
+
+
+
+/* ------------------------------------------- CARD ------------------------------------------- */
+
+
+
+/* ------------------------------------------- FORM ------------------------------------------- */
+
+
+
+/* ------------------------------------------- TEXT ------------------------------------------- */
+
+
