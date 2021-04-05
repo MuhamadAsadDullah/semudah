@@ -1,0 +1,29 @@
+
+
+main {
+    padding: 112px;
+}
+
+.row {
+    display: grid;
+    grid-gap: 64px;
+    grid-template-columns: 464px auto;
+}
+
+.left figure {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left figure img {
+    width: 100%;
+}
+
+.right .tittle .smd-subhead {
+    line-height: 24px;
+}
+
+.right .tittle .smd-desc {
+    line-height: 12px;
+    color: #818289;
+}

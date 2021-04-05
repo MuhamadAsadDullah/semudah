@@ -26,7 +26,8 @@ KETENTUAN PENAMAAN KELAS
 
     --size-head: 64px;
     --size-subhead: 32px;
-    --size-desc: 12px;
+    --size-desc: 16px;
+    --size-note: 12px;
 }
 
 /* ------------------------------------------- ALL ------------------------------------------- */
