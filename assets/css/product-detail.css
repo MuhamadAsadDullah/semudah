@@ -15,9 +15,21 @@ main {
     overflow: hidden;
 }
 
+:root {
+    --color1: #818289;
+}
+
+
+
+/* ------------------------------------------ PICTURE ------------------------------------------  */
+
 .left figure img {
     width: 100%;
 }
+
+
+
+/* ------------------------------------------ DESCRIPTIONS ------------------------------------------  */
 
 .right .tittle .smd-subhead {
     line-height: 24px;
@@ -25,5 +37,93 @@ main {
 
 .right .tittle .smd-desc {
     line-height: 12px;
-    color: #818289;
+    color: var(--color1);
 }
+
+
+
+/*------- PRICE ------- */
+
+.price .discount {
+    color: var(--color-mid-neutral);
+    text-decoration: line-through;
+    display: inline;
+}
+
+.price .price-child {
+    display: flex;
+}
+
+.price .price-child p:nth-child(1) {
+    line-height: 32px;
+    color: var(--color-primary);
+}
+
+.price .price-child p:nth-child(2) {
+    margin-left: 12px;
+    line-height: 46px;
+    width: 80px;
+    color: var(--color-primary);
+}
+
+
+
+/*------- DESC ------- */
+
+.desc {
+    color: var(--color1);
+}
+
+.desc p:nth-child(1) {
+    font-weight: bold;
+    line-height: 12px;
+}
+
+.desc table tr td {
+    padding-bottom: 6px;
+    vertical-align: top;
+}
+
+.desc table tr td:nth-child(1), .desc table tr td:nth-child(2) {
+    padding-right: 12px;
+}
+
+
+
+/*------- SELLER ------- */
+
+.seller {
+    display: grid;
+    grid-template-columns: auto 140px;
+}
+
+.seller .seller-profile {
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+.seller .seller-profile .picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    vertical-align: middle;
+    background-color: var(--color1);
+}
+
+.seller .seller-profile .name p {
+    margin-bottom: 0px;
+}
+
+.seller .seller-profile .name p:nth-child(1) {
+    line-height: 22px;
+}
+
+.seller .seller-profile .name p:nth-child(2) {
+    color: var(--color1);
+}
+
+.btn-checkout {
+    float: right;
+    width: 140px;
+}
+
