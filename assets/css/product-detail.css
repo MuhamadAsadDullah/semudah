@@ -111,9 +111,14 @@ main {
 .seller .seller-profile .picture {
     width: 40px;
     height: 40px;
+    overflow: hidden;
     border-radius: 50px;
     vertical-align: middle;
     background-color: var(--color1);
+}
+
+.seller .seller-profile .picture img {
+    height: 100%;
 }
 
 .seller .seller-profile .name p {
