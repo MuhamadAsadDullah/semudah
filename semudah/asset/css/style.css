@@ -1,0 +1,96 @@
+:root {
+    --btn-ft-primary:#000030;
+    --btn-ft-secondary:#1B1B41;
+    --bg-primary:#141435;
+    --bg-secondary:#000030;
+}
+
+h4{
+    color: white;
+    font-size:18px;
+}
+p{
+    color: white;
+    font-size:14px;
+    padding-top: 20px;
+    margin-left:-30px;
+}
+ul{
+    margin-top:20px;
+}
+
+.iconsosmed{
+    color:white;
+    font-size: 20px;
+    margin-top:20px;
+    margin-left:10px;
+    float: right;
+}
+ul li {
+    list-style: none;
+    margin-left: -40px;
+    width:100px;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.container{
+    margin-left: 120px;
+    margin-right:120px;
+}
+.konten{
+    margin-left:-15px;
+}
+.sect-1{
+    background-color: var(--bg-primary);
+}
+.sect-2{
+    background-color: var(--bg-secondary);
+    height: 70px;
+}
+.konten img{
+    margin-top:10px;
+}
+.btn-ft-a{
+    margin-top: 15px;
+    outline: none;
+    border :none;
+    background-color: var(--btn-ft-primary);
+    color: white;
+    border-radius: 30px;
+    width: 190px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    
+
+}
+.btn-ft-b{
+    margin-top: 15px;
+    outline: none;
+    border :none;
+    background-color: var(--btn-ft-secondary);
+    color: white;
+    border-radius: 30px;
+    width: 190px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    
+
+}
+
+.btn-ft-a h4{
+    font-size: 16px;
+}
+.btn-ft-b h4{
+    font-size: 16px;
+}
+
+.maskot img{
+    margin-left:-30px;
+    padding-bottom:20px;
+}
+
+.col-1{
+    background-color:;
+}
